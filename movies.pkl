@@ -1,0 +1,7 @@
+import pandas as pd
+
+# Load the movie data from a CSV file
+movies = pd.read_csv('movies.csv')
+
+# Save the movie data to a pickle file
+movies.to_pickle('movies.pkl')
