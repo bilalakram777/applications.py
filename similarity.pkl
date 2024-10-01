@@ -1,0 +1,7 @@
+import pandas as pd
+
+# Load the similarity data from a CSV file
+similarity = pd.read_csv('similarity.csv')
+
+# Save the similarity data to a pickle file
+similarity.to_pickle('similarity.pkl')
